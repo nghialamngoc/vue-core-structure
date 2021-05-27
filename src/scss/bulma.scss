@@ -1,0 +1,10 @@
+$column-gap: 5px;
+
+@import "~bulma/sass/grid/columns.sass";
+
+.column.is-auto-desktop {
+  @include desktop {
+    width: auto;
+    flex: 1 1 0;
+  }
+}
